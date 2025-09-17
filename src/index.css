@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styles */
+body {
+  background-color: #f7fafc; /* light background */
+  color: #1a202c; /* dark text */
+}
+
+/* Dark mode */
+html.dark body {
+  background-color: #2d3748; /* dark background */
+  color: #edf2f7; /* light text */
+}
+
+html.dark .bg-white {
+  background-color: #1a202c; /* dark background for white elements */
+}
+
+html.dark .text-gray-900 {
+  color: #edf2f7; /* light text for dark mode */
+}
