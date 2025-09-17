@@ -84,7 +84,3 @@ This portfolio can be deployed on **Vercel**, **Netlify**, or **GitHub Pages** f
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-````
-
----
-
