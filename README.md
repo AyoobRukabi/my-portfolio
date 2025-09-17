@@ -1,7 +1,7 @@
 
 # My Portfolio
 
-![Portfolio Banner]
+
 
 Hi! I’m **Ayoub R.**, a Full-Stack Developer building modern web applications with React, TypeScript, Django, and Go.
 
