@@ -3,7 +3,7 @@
 
 
 
-Hi! I’m **Ayoub R.**, a Full-Stack Developer building modern web applications with React, TypeScript, Django, and Go.
+Hi! I’m **Ayoub R.**, a Full-Stack Developer building modern web applications with React, TypeScript, python, and Go.
 
 ---
 
@@ -12,7 +12,6 @@ Hi! I’m **Ayoub R.**, a Full-Stack Developer building modern web applications 
 This is my personal portfolio website showcasing my projects, skills, and experience. Built with:
 
 - **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion  
-- **Backend (for projects showcased):** Django, Go APIs  
 - **Features:** Dark mode, responsive design, smooth scrolling, animations  
 
 ---
@@ -66,7 +65,6 @@ This portfolio can be deployed on **Vercel**, **Netlify**, or **GitHub Pages** f
 ## 📫 Contact Me
 
 * **LinkedIn:** [Ayoub Alrukabi](https://linkedin.com/in/ayob-alrukabi-308b491a8)
-* **GitHub:** [AyoobRukabi](https://github.com/AyoobRukabi)
 
 ---
 
