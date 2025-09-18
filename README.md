@@ -17,16 +17,6 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ---
 
-## 💻 Featured Projects
-
-| Project | Description | Tech Stack | Link |
-|---------|-------------|------------|------|
-| Portfolio Website | Personal website to showcase projects and skills | React, TypeScript, Tailwind | [GitHub](https://github.com/AyoobRukabi/my-portfolio) |
-| E-commerce App | Full-stack Django + React app with authentication and payments | Django, React, PostgreSQL | [GitHub](#) |
-| Go Task Manager API | RESTful API for managing tasks | Go, PostgreSQL, Gorilla Mux | [GitHub](https://github.com/AyoobRukabi/go-task-manager) |
-
----
-
 ## ⚡ Features
 
 - Fully **responsive layout** for desktop, tablet, and mobile  
