@@ -5,7 +5,7 @@ const experiences = [
   {
     role: "Frontend Developer",
     company: "Cogknit",
-    period: "2024 - Present",
+    period: "2024 - 2025",
     details: "Building responsive websites with React, Tailwind CSS, and SEO optimization.",
   },
   {
