@@ -10,7 +10,7 @@ const experiences = [
   },
   {
     role: "Web Developer Intern",
-    company: "Startup X",
+    company: "Startup",
     period: "2023 - 2024",
     details: "Worked on full-stack apps with Django and React.",
   },
