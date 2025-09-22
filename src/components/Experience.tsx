@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     role: "Frontend Developer",
-    company: "Cogknit",
+    company: "TECH PORT",
     period: "2024 - 2025",
     details: "Building responsive websites with React, Tailwind CSS, and SEO optimization.",
   },
