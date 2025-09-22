@@ -6,18 +6,22 @@ const education = [
     {
       degree: "Software Development",
       school: "Kood/Sisu, Finland, Kuopio",
+      schoolUrl: "https://koodsisu.fi/", // official school website
       period: "2025 - 2027"
     },
     
     {
       degree: "International Business",
       school: "Helsinki Business College, Finland, Helsinki",
+      schoolUrl: "https://bc.fi",
       period: "2024 - 2025"
     },
     {
         degree: "B.Sc. in Software Engineering",
         school: "Al-Mansour University, Iraq, Baghdad",
+        schoolUrl: "https://muc.edu.iq/en/",
         period: "2010 - 2014"
+        
     },
     
   ];
@@ -47,7 +51,14 @@ const education = [
               className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition"
             >
               <h3 className="text-xl font-semibold">{edu.degree}</h3>
-              <p className="text-gray-600 dark:text-gray-400">{edu.school}</p>
+              <p className="text-gray-600 dark:text-gray-400"> <a
+                  href={edu.schoolUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500 transition"
+                >
+                {edu.school} </a>
+                </p>
               <p className="mt-1 text-gray-700 dark:text-gray-300">{edu.period}</p>
             </motion.div>
           ))}

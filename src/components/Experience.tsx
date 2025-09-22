@@ -3,16 +3,48 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    role: "Frontend Developer",
-    company: "TECH PORT",
-    period: "2024 - 2025",
-    details: "Building responsive websites with React, Tailwind CSS, and SEO optimization.",
+    role: "Marketing Intern",
+    company: "Cogknit",
+    period: "Nov 2024 - Jun 2025",
+    details: `- Conducted market research and competitor analysis in the Finnish market
+- Participated in planning and implementing marketing campaigns
+- Created content for communication and branding`,
   },
   {
-    role: "Web Developer Intern",
-    company: "Startup",
-    period: "2023 - 2024",
-    details: "Worked on full-stack apps with Django and React.",
+    role: "Volunteer Staff",
+    company: "Messukeskus, Helsinki Expo and Convention Centre",
+    period: "May 2025",
+    details: `- Assisted at the 11th European Stroke Organization Conference (ESOC 2025)
+- Supported operations at Lilla Strindberg Café
+- Managed access control, hospitality, and guided attendees`,
+  },
+  {
+    role: "Software Engineer",
+    company: "Ministry of Electricity",
+    period: "Dec 2019 - Feb 2022",
+    details: `- Data visualization, processing, and analysis
+- Worked with databases, web development, and web scraping`,
+  },
+  {
+    role: "Credit Card Department Officer",
+    company: "World Islamic Bank",
+    period: "Sep 2020 - May 2021",
+    details: `- Handled ATMs, credit cards, reporting, private banking
+- Managed online payment solutions and e-payments`,
+  },
+  {
+    role: "Sales Engineer",
+    company: "Great Wall Motor Co., Ltd.",
+    period: "Feb 2018 - Jan 2019",
+    details: `- Developed marketing strategy and product marketing
+- Managed sales, showrooms, and social media marketing`,
+  },
+  {
+    role: "Sales Promoter",
+    company: "Huawei",
+    period: "May 2016 - Feb 2017",
+    details: `- Promoted mobile devices and technology
+- Handled sales and mobile marketing`,
   },
 ];
 
@@ -41,7 +73,7 @@ const Experience: React.FC = () => {
             >
               <h3 className="text-xl font-semibold">{exp.role}</h3>
               <p className="text-gray-600 dark:text-gray-400">{exp.company} | {exp.period}</p>
-              <p className="mt-2 text-gray-700 dark:text-gray-300">{exp.details}</p>
+              <p className="mt-2 text-gray-700 dark:text-gray-300 whitespace-pre-line">{exp.details}</p>
             </motion.div>
           ))}
         </div>
