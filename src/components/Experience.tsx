@@ -9,6 +9,7 @@ const experiences = [
     details: `- Conducted market research and competitor analysis in the Finnish market
 - Participated in planning and implementing marketing campaigns
 - Created content for communication and branding`,
+    location: "Helsinki, Finland",
   },
   {
     role: "Volunteer Staff",
@@ -17,6 +18,7 @@ const experiences = [
     details: `- Assisted at the 11th European Stroke Organization Conference (ESOC 2025)
 - Supported operations at Lilla Strindberg Café
 - Managed access control, hospitality, and guided attendees`,
+    location: "Helsinki, Finland",
   },
   {
     role: "Software Engineer",
@@ -24,6 +26,7 @@ const experiences = [
     period: "Dec 2019 - Feb 2022",
     details: `- Data visualization, processing, and analysis
 - Worked with databases, web development, and web scraping`,
+    location: "Baghdad, Iraq",
   },
   {
     role: "Credit Card Department Officer",
@@ -31,6 +34,7 @@ const experiences = [
     period: "Sep 2020 - May 2021",
     details: `- Handled ATMs, credit cards, reporting, private banking
 - Managed online payment solutions and e-payments`,
+    location: "Baghdad, Iraq",
   },
   {
     role: "Sales Engineer",
@@ -38,6 +42,7 @@ const experiences = [
     period: "Feb 2018 - Jan 2019",
     details: `- Developed marketing strategy and product marketing
 - Managed sales, showrooms, and social media marketing`,
+    location: "Baghdad, Iraq",
   },
   {
     role: "Sales Promoter",
@@ -45,6 +50,7 @@ const experiences = [
     period: "May 2016 - Feb 2017",
     details: `- Promoted mobile devices and technology
 - Handled sales and mobile marketing`,
+    location: "Baghdad, Iraq",
   },
 ];
 
@@ -72,7 +78,7 @@ const Experience: React.FC = () => {
               className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition"
             >
               <h3 className="text-xl font-semibold">{exp.role}</h3>
-              <p className="text-gray-600 dark:text-gray-400">{exp.company} | {exp.period}</p>
+              <p className="text-gray-600 dark:text-gray-400">{exp.company} | {exp.period} | {exp.location}</p>
               <p className="mt-2 text-gray-700 dark:text-gray-300 whitespace-pre-line">{exp.details}</p>
             </motion.div>
           ))}
