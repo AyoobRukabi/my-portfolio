@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Education: React.FC = () => {
-  const education = [
+
+const education = [
     {
         degree: "B.Sc. in Software Engineering",
         school: "Al-Mansour University",
@@ -20,6 +20,7 @@ const Education: React.FC = () => {
     },
   ];
 
+  const Education: React.FC = () => {
   return (
     <section id="education" className="py-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-6">
       <div className="max-w-4xl mx-auto">
