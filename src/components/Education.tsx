@@ -4,20 +4,22 @@ import { motion } from "framer-motion";
 
 const education = [
     {
-        degree: "B.Sc. in Software Engineering",
-        school: "Al-Mansour University",
-        period: "2010 - 2014"
+      degree: "Software Development",
+      school: "Kood/Sisu, Finland, Kuopio",
+      period: "2025 - 2027"
     },
+    
     {
       degree: "International Business",
-      school: "Helsinki Business College",
+      school: "Helsinki Business College, Finland, Helsinki",
       period: "2024 - 2025"
     },
     {
-      degree: "Software Development",
-      school: "Kood/Sisu, Kuopio",
-      period: "2025 - 2027"
+        degree: "B.Sc. in Software Engineering",
+        school: "Al-Mansour University, Iraq, Baghdad",
+        period: "2010 - 2014"
     },
+    
   ];
 
   const Education: React.FC = () => {
@@ -29,6 +31,7 @@ const education = [
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-3xl font-bold mb-8 text-center"
+          
         >
           Education
         </motion.h2>
