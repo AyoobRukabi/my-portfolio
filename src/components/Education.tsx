@@ -14,7 +14,7 @@ const Education: React.FC = () => {
       period: "2024 - 2025"
     },
     {
-      degree: "Full-Stack Development",
+      degree: "Software Development",
       school: "Kood/Sisu, Kuopio",
       period: "2025 - 2027"
     },
