@@ -2,12 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   FaReact,
-  FaPython,
   FaNodeJs,
   FaDatabase,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiDjango, SiGo } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiGo, SiJavascript,SiHtml5,SiCss3 } from "react-icons/si";
 
 const projects = [
   {
@@ -22,16 +21,16 @@ const projects = [
     link: "https://github.com/AyoobRukabi/my-portfolio",
   },
   {
-    title: "E-commerce App",
-    description: "Full-stack Django + React application with authentication and payments.",
+    title: "Orbit - Solar System Simulator",
+    description:
+      "An interactive 3D solar system visualization featuring realistic orbits, interactive controls, and detailed planet information.",
     tech: [
-      { name: "Django", icon: <SiDjango className="text-green-700" /> },
-      { name: "React", icon: <FaReact className="text-blue-500" /> },
-      { name: "PostgreSQL", icon: <FaDatabase className="text-blue-800" /> },
-      { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
-      { name: "Python", icon: <FaPython className="text-green-400" /> }  
+      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
+      { name: "Go", icon: <SiGo className="text-cyan-500" /> },
+      { name: "HTML5", icon: <SiHtml5 className="text-orange-500" /> },
+      { name: "CSS3", icon: <SiCss3 className="text-blue-500" /> },
     ],
-    link: "#",
+    link: "https://github.com/AyoobRukabi/orbit",
   },
   {
     title: "Go Task Manager API",

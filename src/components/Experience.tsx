@@ -12,18 +12,21 @@ const experiences = [
     location: "Helsinki, Finland",
   },
   {
-    role: "Volunteer Staff",
-    company: "Messukeskus, Helsinki Expo and Convention Centre",
-    period: "May 2025",
-    details: `- Assisted at the 11th European Stroke Organization Conference (ESOC 2025)
-- Supported operations at Lilla Strindberg Café
-- Managed access control, hospitality, and guided attendees`,
-    location: "Helsinki, Finland",
+    role: "Data Analyst",
+    company: "Tech-Port Smart Solutions",
+    period: "2022 - 2024 ",
+    details: `-	Worked on a SaaS platform for managing patient records and laboratory data across multiple clinics.
+-	Used Python (Pandas), Excel, and data visualization to extract insights from patient and lab data, improving accuracy and reporting speed.
+-	Built interactive dashboards to visualize patient trends, test volumes, and turnaround times for management.
+-	Collaborated with software engineers to integrate analytics into the SaaS product, helping clinics make faster, data-driven decisions.
+-	Contributed to improving data reliability and compliance, which supported onboarding of 5 new healthcare clients.
+`,
+    location: "Baghdad, Iraq",
   },
   {
     role: "Software Engineer",
     company: "Ministry of Electricity",
-    period: "Dec 2019 - Feb 2022",
+    period: "2019 - 2022",
     details: `- Data visualization, processing, and analysis
 - Worked with databases, web development, and web scraping`,
     location: "Baghdad, Iraq",
@@ -31,7 +34,7 @@ const experiences = [
   {
     role: "Credit Card Department Officer",
     company: "World Islamic Bank",
-    period: "Sep 2020 - May 2021",
+    period: "2020 - 2021",
     details: `- Handled ATMs, credit cards, reporting, private banking
 - Managed online payment solutions and e-payments`,
     location: "Baghdad, Iraq",
@@ -39,7 +42,7 @@ const experiences = [
   {
     role: "Sales Engineer",
     company: "Great Wall Motor Co., Ltd.",
-    period: "Feb 2018 - Jan 2019",
+    period: "2018 - 2019",
     details: `- Developed marketing strategy and product marketing
 - Managed sales, showrooms, and social media marketing`,
     location: "Baghdad, Iraq",
@@ -47,7 +50,7 @@ const experiences = [
   {
     role: "Sales Promoter",
     company: "Huawei",
-    period: "May 2016 - Feb 2017",
+    period: "2016 - 2017",
     details: `- Promoted mobile devices and technology
 - Handled sales and mobile marketing`,
     location: "Baghdad, Iraq",
